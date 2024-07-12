@@ -42,8 +42,8 @@ st.markdown(
 
 # unsafe_allow_html=True permite que o streamlite processe html.
 
-altura = st.text_input("Altura")
-peso = st.text_input("Peso")
+altura = st.text_input("Altura (cm)")
+peso = st.text_input("Peso (kg)" )
 
 
 
