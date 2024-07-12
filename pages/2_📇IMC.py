@@ -24,18 +24,17 @@ mas é importante lembrar que o IMC é apenas um indicador e não substitui uma 
 
 st.markdown(
     """
-    <div style="border: 2px solid #4CAF50; border-radius: 10px; padding: 20px; background-color: #f9f9f9; max-width: 600px; margin: auto;">
-        <h2>Classificação do IMC</h2>
-        <ul>
-            <li>Abaixo de 18,5: Abaixo do peso</li>
-            <li>18,5 a 24,9: Peso normal</li>
-            <li>25 a 29,9: Sobrepeso</li>
-            <li>30 a 34,9: Obesidade grau I</li>
-            <li>35 a 39,9: Obesidade grau II</li>
-            <li>40 ou mais: Obesidade grau III (ou mórbida)</li>
+    <div class="card" style="padding: 20px; max-width: 600px; margin: auto;">
+        <h2 class="card-title">Classificação do IMC</h2>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Abaixo de 18,5: Abaixo do peso</li>
+            <li class="list-group-item">18,5 a 24,9: Peso normal</li>
+            <li class="list-group-item">25 a 29,9: Sobrepeso</li>
+            <li class="list-group-item">30 a 34,9: Obesidade grau I</li>
+            <li class="list-group-item">35 a 39,9: Obesidade grau II</li>
+            <li class="list-group-item">40 ou mais: Obesidade grau III (ou mórbida)</li>
         </ul>
     </div>
-    <br><br>
     """,
     unsafe_allow_html=True
 )
